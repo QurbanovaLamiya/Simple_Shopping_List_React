@@ -1,0 +1,54 @@
+.container {
+  background-color: #ffffff;
+  width: 40%;
+  height: 80vh;
+  margin: 3% auto;
+  border-radius: 30px 5px;
+  border: 2px solid #f70c33;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #f70c33;
+}
+
+.formArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: 1px solid #f70c33;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid #f70c33;
+  background-color: #fff;
+  color: #f70c33;
+  width: 150px;
+  height: 35px;
+  margin-top: 15px;
+  font-family: "Dancing Script", cursive;
+}
+
+button:hover {
+  background-color: #f70c33;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 4rem;
+}
+ul li {
+  color: #f70c33;
+  font-size: 1rem;
+  margin: 10px auto;
+}
