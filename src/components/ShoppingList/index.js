@@ -20,6 +20,10 @@ class ShoppingList extends Component {
     let name = this.nameRef.current.value;
     let quantity = this.quantityRef.current.value;
 
+    if (!name && !quantity) {
+      return;
+    }
+
     this.setState({ products: [...this.state.products, { name, quantity }] });
 
     this.nameRef.current.value = "";
